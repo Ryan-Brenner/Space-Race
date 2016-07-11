@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Space Race</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css'>
+  <script  src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+<div id="container">
+	<h1 class='deafualt'>Welcome to The Space Race!</h1>
+		<div id='form-container'>
+		<form hidden>
+			<label for="Player1">Player1 Name</label>
+			<input name='Player1 NAme' type="text" placeholder="Player 1 Name">
+				<select name="Player Type">
+				<option value="hum">HUM</option>
+				</select>
+
+			<label for="Player1"><span id='2'>Player2 Name</span></label>
+			<input type="text" placeholder="Player 2 Name">
+				<select id='p2type'name="Player Type">
+				<option value="hum">HUM</option>
+				<option value="cpu">CPU</option>
+				</select>
+			<label for="Player1"><span id='3'>Player3 Name</span></label>
+			
+		</form>
+		</div>
+
+
+
+
+
+	 <div id="gameBoard" class='col-xs-12'>
+	
+		<div id="player_1" class='col-xs-6'>
+			<div class="image_Container">
+				<img id="p1" src="testRocket.png"/>
+			</div>
+		</div> 
+
+		<div id="player_2" class='col-xs-6'>
+			<div class="image_Container">
+				<img id="p2" src="testRocket.png"/>
+			</div>
+		</div> 
+
+	</div>
+</div>
+</body>
+</html>
